@@ -1,0 +1,366 @@
+<?php include_once("./wp/wp-load.php"); ?>
+<!DOCTYPE html>
+<html lang=ja>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="format-detection" content="telephone=no">
+<title>SKY VILLAGE</title>
+<meta name="keywords" content=""><!--入力ください-->
+<meta name="description" content=""><!--入力ください-->
+<meta property="og:url" content="https://skyvillage.co.jp/">
+<meta property="og:title" content="SKY VILLAGE"><!--注意： title と同じにする-->
+<meta property="og:description" content=""><!--注意： description と同じにする-->
+<meta property="og:site_name" content="SKY VILLAGE">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:type" content="website">
+<meta property="og:image" content="/img/ogp.png">
+<meta name="twitter:card" content="summary">
+<!--<meta name="twitter:site" content=""> twitterがあれば-->
+<!--<meta property="fb:app_id" content=""> Facebookがあれば-->
+<link rel="icon" href="/favicon.ico">
+<link rel="apple-touch-icon" href="/apple-touch-icon-152x152.png" sizes="152x152">
+
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/style.css?20181015_2">
+
+<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:400,500,700&amp;subset=japanese" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-area">
+      <h1><a href="/index.html"><img src="/img/logo.png" alt="SKY VILLAGE"></a></h1>
+      <div class="menu">
+        <p id="menu-btn" class="menu-btn">≡</p>
+        <ul>
+          <li><a href="/index.html">HOME</a></li>
+          <li><a href="/news.html">最新情報</a></li>
+          <li><a href="/navigator/index.html">ナビゲーター一覧</a></li>
+          <li><a href="#reservation">予約方法</a></li>
+          <li><a href="#faq">よくある質問</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  
+  <section class="content">
+    <div class="top-main">
+      <p class="top-main-text"><span>あなたのスキを<br class="br_sp">ビジネスに<br>
+      あなたが望む人生を<br class="br_sp">手に入れるために</span></p>
+      <p class="top-main-scroll">scroll down</p>
+    </div>
+
+    <div class="top-news">
+      <h2><span>NEWS</span></h2>
+      <div class="top-news-contents">
+        <p>
+          <span class="date">2018.10.08</span>
+          <span class="details"><a href="#">Grand Story Fes Powered by  SKY VILLAGE in 赤坂BLITZ　開催！</a></span>
+        </p>
+      </div>
+    </div>
+
+    <article class="top-concept">
+      <div>
+        <div class="top-concept-text">
+          <h2>CONCEPT<span>SKY VILLAGEとは</span></h2>
+          <p>「自分の才能を他人に活かす」こと<br>
+          そして「他人の利益を作るマインドを育てる」<br>
+          ことで、成功を望む全ての人にその機会を提供したい</p>
+        </div>
+        <div class="top-concept-video">
+          <div id="player"></div>
+        </div>
+      </div>
+    </article>
+
+    <article id="navigator" class="top-contents">
+      <h2>CONTENTS<span>コンテンツジャンル</span></h2>
+      <ul>
+        <li class="top-contents-item beauty">
+          <a href="/navigator/beauty.html">
+            <div>ビューティーケア<br>
+            <span class="navigator">ナビゲーター一覧をみる</span></div>
+          </a>
+        </li>
+        <li class="top-contents-item health">
+          <a href="/navigator/health.html">
+            <div>ヘルスケア<br>
+            <span class="navigator">ナビゲーター一覧をみる</span></div>
+          </a>
+        </li>
+        <li class="top-contents-item love">
+          <a href="/navigator/love.html">
+            <div>恋愛<br>コミュニケーションスキル<br>
+            <span class="navigator">ナビゲーター一覧をみる</span></div>
+          </a>
+        </li>
+        <li class="top-contents-item business">
+          <a href="/navigator/business.html">
+            <div>起業・ビジネス<br>
+            <span class="navigator">ナビゲーター一覧をみる</span></div>
+          </a>
+        </li>
+        <li class="top-contents-item cooking">
+          <a href="/navigator/cooking.html">
+            <div>料理<br>
+            <span class="navigator">ナビゲーター一覧をみる</span></div>
+          </a>
+        </li>
+        <li class="top-contents-item economy">
+          <a href="/navigator/economy.html">
+            <div>経済・エンタメ<br>
+            <span class="navigator">ナビゲーター一覧をみる</span></div>
+          </a>
+        </li>
+      </ul>
+    </article>
+
+    <article class="top-schedule">
+      <h2>SCHEDULE<span>スケジュールピックアップ</span></h2>
+      <div>
+        
+        <div class="top-schedule-item">
+          <a href="#">
+            <div class="top-schedule-img" style="background-image: url(/img/top/schedule_20181010.png);">
+            </div>
+            <div>
+              <div class="top-schedule-details">
+                <p class="category beauty">ビューティーケア</p><!--カテゴリ表示テストのため6件にしています、公開時に5件に変更してください-->
+                <p class="date">10/10（水）20:00-</p>
+              </div>
+              <div class="top-schedule-contents">
+                <h3>講座タイトル</h3>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="top-schedule-item">
+          <a href="#">
+            <div class="top-schedule-img" style="background-image: url(/img/top/schedule_20181010.png);">
+            </div>
+            <div>
+              <div class="top-schedule-details">
+                <p class="category health">ヘルスケア</p>
+                <p class="date">10/10（水）20:00-</p>
+              </div>
+              <div class="top-schedule-contents">
+                <h3>講座タイトル</h3>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="top-schedule-item">
+          <a href="#">
+            <div class="top-schedule-img" style="background-image: url(/img/top/schedule_20181010.png);">
+            </div>
+            <div>
+              <div class="top-schedule-details">
+                <p class="category love">恋愛・コミュニケーションスキル</p>
+                <p class="date">10/10（水）20:00-</p>
+              </div>
+              <div class="top-schedule-contents">
+                <h3>講座タイトル</h3>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="top-schedule-item">
+          <a href="#">
+            <div class="top-schedule-img" style="background-image: url(/img/top/schedule_20181010.png);">
+            </div>
+            <div>
+              <div class="top-schedule-details">
+                <p class="category business">起業・ビジネス</p>
+                <p class="date">10/10（水）20:00-</p>
+              </div>
+              <div class="top-schedule-contents">
+                <h3>講座タイトル</h3>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="top-schedule-item">
+          <a href="#">
+            <div class="top-schedule-img" style="background-image: url(/img/top/schedule_20181010.png);">
+            </div>
+            <div>
+              <div class="top-schedule-details">
+                <p class="category cooking">料理</p>
+                <p class="date">10/10（水）20:00-</p>
+              </div>
+              <div class="top-schedule-contents">
+                <h3>講座タイトル</h3>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="top-schedule-item">
+          <a href="#">
+            <div class="top-schedule-img" style="background-image: url(/img/top/schedule_20181010.png);">
+            </div>
+            <div>
+              <div class="top-schedule-details">
+                <p class="category economy">経済・エンタメ</p>
+                <p class="date">10/10（水）20:00-</p>
+              </div>
+              <div class="top-schedule-contents">
+                <h3>講座タイトル</h3>
+                <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </article>
+
+    <article class="top-voice">
+      <h2>VOICE<span>著名人の声</span></h2>
+      <div>
+        <div class="top-voice-item">
+          <a href="#">
+            <div class="top-voice-img" style="background-image: url(img/top/voice_ishizuka.png);">
+            </div>
+            <div class="top-voice-contents">
+              <h3>石塚 博之</h3>
+              <p class="company">H/I<br>代表・プロデューサー </p>
+              <p>各分野でプロフェッショナルとして活躍する方々と出会える。これだけで、充分。</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="top-voice-item">
+          <a href="#">
+            <div class="top-voice-img" style="background-image: url(img/top/voice_example.png);">
+            </div>
+            <div class="top-voice-contents">
+            <h3>名前</h3>
+              <p class="company">会社名<br>肩書きなど</p>
+              <p>文字数がオーバーすると切れます。全角３９文字までにすると綺麗に入ります。</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="top-voice-item">
+          <a href="#">
+            <div class="top-voice-img" style="background-image: url(img/top/voice_example.png);">
+            </div>
+            <div class="top-voice-contents">
+            <h3>名前</h3>
+              <p class="company">会社名<br>肩書きなど</p>
+              <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="top-voice-item">
+          <a href="#">
+            <div class="top-voice-img" style="background-image: url(img/top/voice_example.png);">
+            </div>
+            <div class="top-voice-contents">
+            <h3>名前</h3>
+              <p class="company">会社名<br>肩書きなど</p>
+              <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
+            </div>
+          </a>
+        </div>
+      </div>
+      
+      <p class="btn"><a href="/voice.html">著名人の声一覧をみる</a></p>
+    </article>
+
+    <article id="reservation" class="top-reservation">
+      <h2>RESERVATION<span>予約方法</span></h2>
+      <div>
+        <div class="top-reservation-item">
+          <div class="top-reservation-img">
+            <img src="/img/top/reservation_01.png" alt="">
+          </div>
+          <div class="top-reservation-contents">
+            <h3>手順1 見出し</h3>
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+          </div>
+        </div>
+        <div class="top-reservation-item">
+          <div class="top-reservation-img">
+            <img src="/img/top/reservation_02.png" alt="">
+          </div>
+          <div class="top-reservation-contents">
+            <h3>手順2 見出し</h3>
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+          </div>
+        </div>
+        <div class="top-reservation-item">
+          <div class="top-reservation-img">
+            <img src="/img/top/reservation_03.png" alt="">
+          </div>
+          <div class="top-reservation-contents">
+            <h3>手順3 見出し</h3>
+            <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
+          </div>
+        </div>
+        
+      </div>
+    </article>
+
+    <article id="faq" class="top-faq">
+      <h2>Q &amp; A<span>よくある質問</span></h2>
+      <div>
+        
+        <dl class="top-faq-item">
+          <dt>質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問質問</dt>
+          <dd>回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答回答</dd>
+        </dl>
+
+        <dl class="top-faq-item">
+          <dt>質問</dt>
+          <dd>回答回答回答回答回答回答</dd>
+        </dl>
+
+        <dl class="top-faq-item">
+          <dt>質問</dt>
+          <dd>回答回答回答回答回答回答</dd>
+        </dl>
+
+        <dl class="top-faq-item">
+          <dt>質問</dt>
+          <dd>回答回答回答回答回答回答</dd>
+        </dl>
+
+        <dl class="top-faq-item">
+          <dt>質問</dt>
+          <dd>回答回答回答回答回答回答</dd>
+        </dl>
+        
+      </div>
+    </article>
+  </section>
+  
+  <footer>
+    <div class="footer-area">
+      <ul class="footer-link">
+        <li><a href="/privacy-policy.html">プライバシーポリシー</a></li>
+      </ul>
+      <p class="copyright">&copy;2018 SKYVILLAGE All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+
+<script type="text/javascript" src="/js/jquery.js"></script>
+<script type="text/javascript" src="/js/smooziee.js"></script>
+<script type="text/javascript" src="/js/script.js?20181016"></script>
+
+</body>
+</html>
